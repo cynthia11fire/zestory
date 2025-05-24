@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>ZESTORY 植語所｜人物誌深度訪談問卷</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans TC', Arial, sans-serif;
+      background: linear-gradient(120deg, #e8f6ef 0%, #fdfcfb 100%);
+      color: #4e523b;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .banner {
+      width: 100vw;
+      min-height: 340px;
+      background: #FFF6DE;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 0 32px 0;
+      box-sizing: border-box;
+      margin-bottom: 18px;
+    }
+    .circle-logo {
+      width: 310px;
+      height: 310px;
+      background: #f3e1b0;
+      border: 7px solid #efd08e;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 42px #c09c3c22, 0 2px 18px #fff4;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .circle-logo img {
+      width: 100%;
+      height: %;
+      object-fit: contain;
+      display: block;
+      margin: auto;
+      /* 防止logo溢出/裁切 */
+    }
+    .container {
+      max-width: 540px;
+      margin: 0 auto 50px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px #8ec08a33;
+      padding: 36px 32px 30px 32px;
+      border: 2px solid #e3f4ea;
+    }
+    h1 {
+      font-size: 1.6em;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #3f502d;
+      margin-bottom: 28px;
+    }
+    .qblock { margin-bottom: 26px; }
+    label, .qtitle {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 7px;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 1em;
+      border-radius: 8px;
+      border: 1.5px solid #bbdbc5;
+      background: #fafcf9;
+      margin-top: 2px;
+      box-sizing: border-box;
+    }
+    textarea { min-height: 44px; resize: vertical; }
+    .submit-btn {
+      width: 100%;
+      background: linear-gradient(90deg, #76a47a 0%, #e4a017 100%);
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 1.13em;
+      letter-spacing: 2px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 12px;
+      box-shadow: 0 2px 10px #64966410;
+      transition: background 0.18s;
+    }
+    .submit-btn:hover { background: linear-gradient(90deg, #5e7e5d 0%, #bd830f 100%); }
+    @media (max-width: 700px) {
+      .banner { min-height: 140px; padding: 13vw 0 6vw 0; }
+      .circle-logo { width: 150px; height: 150px;}
+      .container { margin: 8vw 2vw 6vw 2vw; padding: 5vw 4vw 4vw 4vw; }
+      h1 { font-size: 1.12rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner 區塊 -->
+  <div class="banner">
+    <div class="circle-logo">
+      <img src="images/1log.png" alt="ZESTORY Logo">
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>植語所｜人物誌深度訪談問卷</h1>
+    <form action="https://docs.google.com/forms/d/1vYcT5k2vEQRF12_BF-zfixAdKf6dUjP9keiHREoBlYQ/formResponse" method="POST" target="_blank">
+      <div class="qblock">
+        <label>1. 人生中最重要的三個價值是什麼？</label>
+        <input type="text" name="entry.1168998474" required>
+      </div>
+      <div class="qblock">
+        <label>2. 請簡述您的一日生活常態，常出現的三件事：</label>
+        <input type="text" name="entry.2147055633" required>
+      </div>
+      <div class="qblock">
+        <label>3. 您休閒時最常做什麼？</label>
+        <input type="text" name="entry.1560477442">
+      </div>
+      <div class="qblock">
+        <label>4. 選擇休閒消費或自我投資時，您最重視哪些？</label>
+        <input type="text" name="entry.51040691">
+      </div>
+      <div class="qblock">
+        <label>5. 您常用哪些媒介獲取新知？</label>
+        <input type="text" name="entry.486059241">
+      </div>
+      <div class="qblock">
+        <label>6. 您是否有持續創作？哪一項讓您最有成就感？請舉例分享：</label>
+        <input type="text" name="entry.1804646400">
+      </div>
+      <button class="submit-btn" type="submit">送出問卷</button>
+    </form>
+  </div>
+</body>
+</html>
